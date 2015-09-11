@@ -13,6 +13,21 @@ html {
     text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+
+}
+
+@media only screen and (min-width: 90em) {
+    
+
+}
+
+@media only screen and (min-width: 120em) {
+    
+
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -55,7 +70,22 @@ html {
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-    position: absolute;
+    position: fixed;
     left: 35%;
     bottom: 30%;
+}
+
+@media only screen and (min-width: 25em) {
+    
+}
+
+@media only screen and (min-width: 38em) {
+    
+  .intro {
+    text-align: center;
+   }
+    
+  #circle {
+      left: 35%;
+
 }
