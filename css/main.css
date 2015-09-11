@@ -17,7 +17,45 @@ html {
   box-sizing: inherit;
 }
 
-img {
-    width: 100%;
-    display: block;
+.body {
+    margin: none;
+    padding: none;
+}
+
+#background {
+  position: fixed; 
+  top: -10%; 
+  left: -10%; 
+  width: 100%; 
+  height: 100%;
+}
+#background img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.intro {
+    position: absolute;
+    color: #001f3f;
+    left: 30.5%;
+    bottom: 50%;
+    text-align: center;
+}
+
+#circle {
+	width: 350px;
+	height: 350px;
+	background-color: #efefef;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+    position: absolute;
+    left: 35%;
+    bottom: 30%;
 }
