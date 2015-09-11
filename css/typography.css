@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 'Merriweather', serif;
+  font: normal 100%/1.5 'dancing script', serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -20,7 +20,7 @@ fieldset, pre, table {
 }
 
 h1, .exa {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oranienbaum', sans-serif;
   font-size: 1.8020rem;
   line-height: 1.6648;
 }

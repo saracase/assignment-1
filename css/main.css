@@ -58,11 +58,12 @@ html {
     position: absolute;
     color: #001f3f;
     left: 30.5%;
-    bottom: 50%;
+    bottom: 40%;
     text-align: center;
 }
 
 #circle {
+    display: inline;
 	width: 350px;
 	height: 350px;
 	background-color: #efefef;
@@ -72,10 +73,16 @@ html {
     bottom: 30%;
 }
 
+.circle a {
+  font-size:10px;
+  text-decoration:none;
+  color:#fff;
+}
+
 @media only screen and (min-width: 25em) {
     
   .intro {
-    left: 2%;
+    left: 9%;
     text-align: center;
    }
     
