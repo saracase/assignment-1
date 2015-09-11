@@ -13,18 +13,17 @@ html {
     text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) {
-    
-
-}
-
 @media only screen and (min-width: 90em) {
     
-
-}
-
-@media only screen and (min-width: 120em) {
+ .intro {
+    left: -5%;
+    text-align: center;
+   }
     
+  #circle {
+      left: 35%;
+      position: fixed;
+  }
 
 }
 
@@ -70,22 +69,48 @@ html {
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-    position: fixed;
-    left: 35%;
     bottom: 30%;
 }
 
 @media only screen and (min-width: 25em) {
+    
+  .intro {
+    left: 2%;
+    text-align: center;
+   }
+    
+  #circle {
+      left: 15%;
+      position: fixed;
+
+  }
     
 }
 
 @media only screen and (min-width: 38em) {
     
   .intro {
+    left: -1%;
+    text-align: center;
+   }
+    
+  #circle {
+      left: 20%;
+      position: fixed;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+    
+  .intro {
+    left: -3%;
     text-align: center;
    }
     
   #circle {
       left: 35%;
+      position: fixed;
+  }
 
 }
