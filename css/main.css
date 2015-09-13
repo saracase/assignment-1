@@ -54,11 +54,17 @@ html {
   min-height: 50%;
 }
 
+.icon {
+    position: absolute;
+    left: 43.5%;
+    bottom: 62%;
+}
+
 .intro {
     position: absolute;
     color: #001f3f;
     left: 30.5%;
-    bottom: 40%;
+    bottom: 37%;
     text-align: center;
 }
 
@@ -71,12 +77,6 @@ html {
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
     bottom: 30%;
-}
-
-.circle a {
-  font-size:10px;
-  text-decoration:none;
-  color:#fff;
 }
 
 @media only screen and (min-width: 25em) {
